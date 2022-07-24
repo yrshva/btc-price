@@ -1,4 +1,4 @@
-import BtcPrice from './BtcPrice'
+import BtcPrice from './components/BtcPrice'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
 
