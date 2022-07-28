@@ -2,4 +2,7 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+.wrap .btn-size {
+  max-width: 200px;
 }/*# sourceMappingURL=btcprice.css.map */

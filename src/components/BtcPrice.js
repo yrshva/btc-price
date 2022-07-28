@@ -50,7 +50,7 @@ export default function BtcPrice () {
                     <p className="text-light">BTC/GBP {btcprice.usd}</p>
                 </div>
                 <div className="text-center text-light">{seconds}</div>
-                <button className="btn btn-secondary  col-3" disabled={timerActive} onClick={()=>{setSeconds(10);getPrice()}}>Refresh price</button>
+                <button className="btn btn-secondary col btn-size" disabled={timerActive} onClick={()=>{setSeconds(10);getPrice()}}>Refresh price</button>
 
                 </div> 
             </div>

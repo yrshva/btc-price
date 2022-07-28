@@ -11,6 +11,7 @@ export function refreshPrice(btcprice) {
   }
 
 const defaultPrice = '';
+
 function btcprice(state=defaultPrice, action){
     if(action.type == REFRESH_PRICE) {
           return {
